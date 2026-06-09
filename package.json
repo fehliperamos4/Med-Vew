@@ -1,0 +1,17 @@
+﻿{
+  "name": "projeto-gerador-relatorio-medico",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "sass": "sass assets/resources/styles/scss/main.scss assets/resources/styles/main.css --no-source-map",
+    "build": "npm run sass",
+    "lint": "eslint '**/*.js'",
+    "format": "prettier --write '**/*.{js,json,md,css,scss,html}'"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "prettier": "^3.0.0",
+    "sass": "^1.80.0"
+  }
+}
+

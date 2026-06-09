@@ -1,0 +1,87 @@
+@use "variables" as v;
+@use "mixins" as m;
+
+:root {
+  --primary-color: #{v.$primary-color};
+  --primary-gradient: #{v.$primary-gradient};
+  --surface-low: #{v.$surface-low};
+  --surface-lowest: #{v.$surface-lowest};
+  --on-surface: #{v.$on-surface};
+  --on-surface-variant: #{v.$on-surface-variant};
+  --bg: #{v.$bg};
+  --radius-lg: #{v.$radius-lg};
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+  background: var(--bg);
+  color: var(--on-surface);
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Manrope", sans-serif;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+.container,
+.container-fluid {
+  @include m.fluid-container;
+}
+
+.responsive-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.text-clamp-xl {
+  @include m.responsive-text(2rem, 5vw, 3rem);
+}
+
+.text-clamp-lg {
+  @include m.responsive-text(1.5rem, 3.5vw, 2.2rem);
+}
+
+.text-clamp-md {
+  @include m.responsive-text(1.125rem, 2vw, 1.5rem);
+}
+
+.btn-rounded {
+  border-radius: 1rem;
+}
+
+@media (max-width: 768px) {
+  .container,
+  .container-fluid {
+    padding-inline: 0.75rem;
+  }
+}

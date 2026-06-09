@@ -1,0 +1,52 @@
+﻿.font-headline {
+    font-family: "Manrope", sans-serif;
+}
+
+.text-primary-medvew {
+    color: var(--primary-color) !important;
+}
+
+.link-medvew {
+    color: var(--primary-color);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.link-medvew:hover {
+    text-decoration: underline;
+}
+
+.password-toggle-btn {
+    z-index: 5;
+}
+
+@media (max-width: 576px) {
+    .form-label {
+        font-size: 0.875rem;
+        font-weight: 500;
+    }
+
+    .form-control {
+        font-size: 0.875rem;
+        padding: 0.625rem 0.875rem;
+        height: 2.5rem;
+    }
+
+    .btn {
+        font-size: 0.875rem;
+        padding: 0.625rem 1rem;
+        height: 2.5rem;
+    }
+
+    h1 {
+        font-size: 1.25rem;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+    }
+
+    header p {
+        font-size: 0.875rem;
+    }
+}

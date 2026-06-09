@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>MedVew | Cadastro de Paciente</title>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Material Symbols -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap 5.3.3 CSS -->
+    <link
+      crossorigin="anonymous"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../../../assets/resources/styles/main.css" />
+    <link rel="stylesheet" href="../../../assets/resources/styles/cadastro.css" />
+  </head>
+
+  <body class="d-flex align-items-center justify-content-center min-vh-100 py-4">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-5">
+          <div class="card border-0 shadow-sm">
+            <div class="card-body p-5">
+              <header class="text-center mb-5">
+                <div class="d-flex align-items-center justify-content-center mb-4 gap-2">
+                  <span
+                    class="material-symbols-outlined text-primary fs-2"
+                    data-icon="medical_services"
+                  >
+                    medical_services
+                  </span>
+
+                  <h1 class="font-headline fw-bolder fs-4 text-primary mb-0">MedVew</h1>
+                </div>
+
+                <h2 class="font-headline fs-5 fw-bolder text-dark mb-2">Criar sua conta</h2>
+
+                <p class="text-secondary fw-medium small">
+                  Preencha os campos abaixo para começar.
+                </p>
+              </header>
+
+              <form class="needs-validation" action="../login/login.html">
+                <div class="mb-3">
+                  <label class="form-label" for="name"> Nome Completo </label>
+
+                  <input
+                    class="form-control"
+                    id="name"
+                    placeholder="Ex: Ana Beatriz Silva"
+                    required
+                    type="text"
+                  />
+                </div>
+
+                <div class="row g-3 mb-3">
+                  <div class="col-md-6">
+                    <label class="form-label" for="cpf">CPF</label>
+
+                    <input
+                      class="form-control"
+                      id="cpf"
+                      placeholder="000.000.000-00"
+                      required
+                      type="text"
+                    />
+                  </div>
+
+                  <div class="col-md-6">
+                    <label class="form-label" for="phone"> Telefone </label>
+
+                    <input
+                      class="form-control"
+                      id="phone"
+                      placeholder="(11) 99999-9999"
+                      required
+                      type="tel"
+                    />
+                  </div>
+                </div>
+
+                <div class="mb-3">
+                  <label class="form-label" for="address"> Endereço </label>
+
+                  <div class="input-group">
+                    <span class="input-group-text bg-light border-0">
+                      <span class="material-symbols-outlined" data-icon="location_on">
+                        location_on
+                      </span>
+                    </span>
+
+                    <input
+                      class="form-control border-0"
+                      id="address"
+                      placeholder="Rua, Número, Bairro, Cidade - UF"
+                      required
+                      type="text"
+                    />
+                  </div>
+                </div>
+
+                <div class="mb-3">
+                  <label class="form-label" for="password"> Senha </label>
+
+                  <div class="input-group position-relative">
+                    <span class="input-group-text bg-light border-0">
+                      <span class="material-symbols-outlined" data-icon="lock"> lock </span>
+                    </span>
+
+                    <input
+                      class="form-control border-0 pe-5"
+                      id="password"
+                      placeholder="Mínimo 8 caracteres"
+                      required
+                      type="password"
+                    />
+
+                    <button
+                      class="btn btn-link position-absolute end-0 top-50 translate-middle-y border-0 text-secondary p-2 password-toggle-btn"
+                      type="button"
+                    >
+                      <span class="material-symbols-outlined" data-icon="visibility">
+                        visibility
+                      </span>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="text-center mb-4 px-2">
+                  <p class="small text-secondary mb-0">
+                    Ao cadastrar-se, você concorda com nossos
+                    <a class="link-medvew" href="#">Termos</a>
+                    e
+                    <a class="link-medvew" href="#"> Privacidade </a>.
+                  </p>
+                </div>
+
+                <div class="d-grid mb-4">
+                  <button
+                    class="btn btn-primary d-flex align-items-center justify-content-center gap-2 py-2 fw-bold"
+                    type="submit"
+                  >
+                    <span>Finalizar Cadastro</span>
+
+                    <span class="material-symbols-outlined" data-icon="chevron_right">
+                      chevron_right
+                    </span>
+                  </button>
+                </div>
+
+                <div class="text-center border-top pt-4">
+                  <p class="small text-secondary mb-2">Já possui uma conta?</p>
+
+                  <a class="link-medvew small" href="../login/login.html"> Entrar no Portal </a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap 5.3.3 JS Bundle -->
+    <script
+      crossorigin="anonymous"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    ></script>
+
+    <script src="../../../assets/resources/scripts/cadastro.js"></script>
+  </body>
+</html>

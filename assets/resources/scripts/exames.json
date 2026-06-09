@@ -1,0 +1,115 @@
+{
+  "categorias": [
+    {
+      "nome": "Exames Laboratoriais",
+      "exames": [
+        "Hemograma Completo",
+        "Glicemia em Jejum",
+        "Hemoglobina Glicada (HbA1c)",
+        "Colesterol Total",
+        "HDL",
+        "LDL",
+        "Triglicerídeos",
+        "Ureia",
+        "Creatinina",
+        "Ácido Úrico",
+        "TGO (AST)",
+        "TGP (ALT)",
+        "Gama GT",
+        "Bilirrubinas",
+        "TSH",
+        "T4 Livre",
+        "Vitamina D",
+        "Vitamina B12",
+        "Ferro Sérico",
+        "Ferritina",
+        "HIV",
+        "Sífilis (VDRL)",
+        "Hepatite B",
+        "Hepatite C",
+        "EAS (Urina Tipo I)",
+        "Urocultura",
+        "Parasitológico de Fezes"
+      ]
+    },
+    {
+      "nome": "Exames Cardiológicos",
+      "exames": [
+        "Eletrocardiograma (ECG)",
+        "Ecocardiograma",
+        "Teste Ergométrico",
+        "Holter 24h",
+        "MAPA 24h"
+      ]
+    },
+    {
+      "nome": "Exames Respiratórios",
+      "exames": [
+        "Espirometria",
+        "Oximetria de Pulso"
+      ]
+    },
+    {
+      "nome": "Exames de Imagem",
+      "exames": [
+        "Ultrassom Abdominal Total",
+        "Ultrassom Pélvico",
+        "Ultrassom Transvaginal",
+        "Ultrassom de Tireoide",
+        "Ultrassom de Mamas",
+        "Ultrassom de Próstata",
+        "Ultrassom com Doppler",
+        "Raio-X de Tórax",
+        "Mamografia",
+        "Densitometria Óssea"
+      ]
+    },
+    {
+      "nome": "Exames Ginecológicos",
+      "exames": [
+        "Papanicolau",
+        "Colposcopia",
+        "Exame de Secreção Vaginal"
+      ]
+    },
+    {
+      "nome": "Exames Urológicos",
+      "exames": [
+        "PSA Total",
+        "PSA Livre"
+      ]
+    },
+    {
+      "nome": "Exames Oftalmológicos",
+      "exames": [
+        "Acuidade Visual",
+        "Tonometria",
+        "Fundo de Olho"
+      ]
+    },
+    {
+      "nome": "Exames Neurológicos",
+      "exames": [
+        "Eletroencefalograma (EEG)"
+      ]
+    },
+    {
+      "nome": "Exames para Gestantes",
+      "exames": [
+        "Tipagem Sanguínea ABO/Rh",
+        "Coombs Indireto",
+        "Beta HCG",
+        "Toxoplasmose",
+        "Rubéola",
+        "Citomegalovírus",
+        "Ultrassom Obstétrico",
+        "Ultrassom Morfológico",
+        "Ultrassom com Doppler Fetal",
+        "Teste Oral de Tolerância à Glicose (TOTG)",
+        "Cultura para Streptococcus do Grupo B",
+        "Cardiotocografia",
+        "Perfil Biofísico Fetal"
+      ]
+    }
+  ]
+}

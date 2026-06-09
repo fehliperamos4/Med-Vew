@@ -1,0 +1,15 @@
+﻿.brand-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.brand-caption {
+  font-family: "Manrope", sans-serif;
+}
+
+.brand-caption-subtitle {
+  font-size: 0.55rem;
+  letter-spacing: 0.1em;
+}
